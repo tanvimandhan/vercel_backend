@@ -7,7 +7,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://vercel-frontend-alpha-pearl.vercel.app/",
   credentials: true,
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
